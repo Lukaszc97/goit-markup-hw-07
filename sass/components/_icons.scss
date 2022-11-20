@@ -17,10 +17,10 @@
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-media-icons > li:hover {
-  background-color: var(--main-theme-color);
-  fill: var(--white-text-color);
+  &:hover {
+    background-color: var(--main-theme-color);
+    fill: var(--white-text-color);
+  }
 }
 /* team */
 .team__icons > .social-media-icons > li {
