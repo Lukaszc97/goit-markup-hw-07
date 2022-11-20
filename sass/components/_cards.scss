@@ -1,0 +1,19 @@
+.cards {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 94px;
+  &__icon > li {
+    background-color: var(--secondary-background-color);
+  }
+  &__content > ul > li > p {
+    max-width: 270px;
+  }
+  &__icon > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+  }
+}

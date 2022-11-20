@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  background-color: var(--seconadary-background-color);
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 1.5;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &__contakt {
+    display: flex;
+    flex-direction: column;
+    color: var(--footer-text-color);
+  }
+  &__address {
+    margin-top: 20px;
+  }
+  &__join {
+    margin-left: 70px;
+  }
+  &__newsletter {
+    display: flex;
+    width: 570px;
+    height: 86px;
+    margin-left: 76px;
+    border-color: transparent;
+    padding-top: 20px;
+  }
+  &__input-email {
+    width: 358px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: var(--white-text-color);
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-right: 12px;
+  }
+}
+.footer > .container {
+  justify-content: left;
+}

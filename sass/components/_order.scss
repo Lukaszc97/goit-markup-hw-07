@@ -1,0 +1,14 @@
+.order {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../images/order.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1600px;
+  color: var(--white-text-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto 94px auto;
+}
