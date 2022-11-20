@@ -24,7 +24,7 @@
     margin-right: 50px;
   }
   &__address > ul > li :hover {
-    fill: red;
+    fill: var(--main-theme-color);
   }
 }
 .nav-focus {
