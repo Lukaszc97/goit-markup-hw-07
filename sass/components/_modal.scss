@@ -80,23 +80,23 @@
   &__privacy-policy {
     color: var(--main-theme-color);
   }
-}
-.modal__my-form .modal__input:focus {
-  outline: 0;
-  background-color: transparent;
-}
-.modal__fieldset:has(input:focus) {
-  border-color: var(--main-theme-color);
-  fill: var(--main-theme-color);
-  transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.modal__accept .checkmark {
-  position: absolute;
-  width: 16px;
-  height: 15px;
-  border: 1px solid black;
-  border-radius: 2px;
-}
-.modal__checkbox:not(:checked) + .modal__checkbox-icon {
-  opacity: 0;
+  &__my-form .modal__input:focus {
+    outline: 0;
+    background-color: transparent;
+  }
+  &__fieldset:has(input:focus) {
+    border-color: var(--main-theme-color);
+    fill: var(--main-theme-color);
+    transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  &__accept .checkmark {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  &__checkbox:not(:checked) + .modal__checkbox-icon {
+    opacity: 0;
+  }
 }
