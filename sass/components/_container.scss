@@ -6,7 +6,15 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
-  &r__margin > ul :not(:last-of-type) {
+  &__margin > ul :not(:last-of-type) {
     margin-right: 30px;
+  }
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
