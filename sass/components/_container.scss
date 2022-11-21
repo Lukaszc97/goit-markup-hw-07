@@ -6,4 +6,7 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+  &r__margin > ul :not(:last-of-type) {
+    margin-right: 30px;
+  }
 }
