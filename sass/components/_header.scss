@@ -11,6 +11,19 @@
   &__nav > ul :not(:last-child) {
     margin-right: 46px;
   }
+  &__nav-focus {
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      bottom: -28px;
+      left: 0;
+      height: 4px;
+      border-radius: 2px;
+      background-color: var(--main-theme-color);
+      width: 100%;
+    }
+  }
   &__address {
     margin-left: 345px;
     font-weight: 500;
@@ -25,18 +38,5 @@
   }
   &__address > ul > li :hover {
     fill: var(--main-theme-color);
-  }
-}
-.nav-focus {
-  position: relative;
-  &:after {
-    position: absolute;
-    content: "";
-    bottom: -28px;
-    left: 0;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--main-theme-color);
-    width: 100%;
   }
 }
